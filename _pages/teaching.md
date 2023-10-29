@@ -1,12 +1,13 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
+permalink: /tutoring/
+title: tutoring
 description: Materials for courses you taught. Replace this text with your description.
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+I have several years experience in tutoring students from high-school and university.
+In particular, I have prepared students for:
+- admission tests to Bocconi and Politecnico di Milano
+- 

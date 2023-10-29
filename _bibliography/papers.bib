@@ -1,84 +1,61 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@article{Suitability,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  abbr={IEEE COINS},
+  title={Suitability of Forward-Forward and PEPITA Learning to MLCommons-Tiny benchmarks},
+  author={Pau, DP and Aymone, FM},
+  abstract={On-device learning challenges the restricted memory and computation requirements imposed by its deployment on tiny devices. Current training algorithms are based on backpropagation which requires storing intermediate activations to compute the backward pass and to update the weights into the memory. Recently “Forward-only algorithms” have been proposed as biologically plausible alternatives to backpropagation. At the same time, they remove the need to store the intermediate activations which potentially lower the power consumption due to memory read and write operations, thus, opening to new opportunities for further savings. This paper investigates quantitatively the improvements in terms of complexity and memory usage brought by PEPITA and Forward-Forward computing approaches with respect to backpropagation on the MLCommons-Tiny benchmarks set as case studies. It was observed that the reduction in activations' memory provided by “Forward-only algorithms” does not affect total RAM in Fully-connected networks. On the other hand, Convolutional neural networks benefit the most from such reduction due to lower parameters-activations ratio. In the context of the latter, a memory-efficient version of PEPITA reduces, on average, one third of the total RAM with respect to backpropagation, introducing only a third more complexity. Forward-Forward brings average memory reduction to 40%, and it involves additional computation at inference that, depending on the benchmarks studied, can be costly on micro-controllers.},
+  journal={IEEE COINS},
+  volume={},
+  issue={},
+  year={2023},
+  month={July},
+  publisher={IEEE COINS},
+  doi={10.1109/COINS57856.2023.10189239},
+  url={https://ieeexplore.ieee.org/abstract/document/10189239},
+  html={https://ieeexplore.ieee.org/abstract/document/10189239},
+  selected={true},
+  preview={ff.png}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{TinyRCESens,
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
+  abbr={IEEE Sensors Letters},
+  title={TinyRCE: Multipurpose Forward Learning for Resource Restricted Devices},
+  author={Pau, DP and Pisani, A and Aymone, FM and Ferrari, G},
+  abstract={The challenge of deploying neural network (NN) learning workloads on ultralow power tiny devices has recently attracted several machine learning researchers of the Tiny machine learning community. A typical on-device learning session processes real-time streams of data acquired by heterogeneous sensors. In such a context, this letter proposes Tiny Restricted Coulomb energy (TinyRCE), a forward-only learning approach based on a hyperspherical classifier, which can be deployed on microcontrollers and potentially integrated into the sensor package. TinyRCE is fed with compact features extracted by a convolutional neural network (CNN), which can be trained with backpropagation or it can be an extreme learning machine with randomly initialized weights. A forget mechanism has been introduced to discard useless neurons from the hidden layer, since they can become redundant over time. TinyRCE has been evaluated with a new interleaved learning and testing data protocol to mimic a typical forward on-tiny-device workload. It has been tested with the standard MLCommons Tiny datasets used for keyword spotting and image classification, and against the respective neural benchmarks. In total, 95.25% average accuracy was achieved over the former classes (versus 91.49%) and 87.17% over the latter classes (versus 100%, caused by overfitting). In terms of complexity, TinyRCE requires 22× less Multiply and ACCumulate (MACC) than SoftMax (with 36 epochs) on the former, whereas it requires 5× more MACC than SoftMax (with 500 epochs) for the latter. Classifier complexity and memory footprint are marginal w.r.t. the feature extractor, for training and inference workloads.},
+  journal={IEEE Sensors Letters},
+  volume={7},
   issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+  year={2023},
+  month={August},
+  publisher={IEEE Sensors Letters},
+  doi={10.1109/LSENS.2023.3307119},
+  url={https://ieeexplore.ieee.org/abstract/document/10225676},
+  html={https://ieeexplore.ieee.org/abstract/document/10225676},
+  selected={true},
+  preview={sens.png}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@article{AQuantitativeReview,
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  abbr={MDPI Chips},
+  title={A Quantitative Review of Automated Neural Search and On-Device Learning for Tiny Devices},
+  author={Pau, DP and Ambrose, PK and Aymone, FM},
+  abstract={This paper presents a state-of-the-art review of different approaches for Neural Architecture Search targeting resource-constrained devices such as microcontrollers, as well as the implementations of on-device learning techniques for them. Approaches such as MCUNet have been able to drive the design of tiny neural architectures with low memory and computational requirements which can be deployed effectively on microcontrollers. Regarding on-device learning, there are various solutions that have addressed concept drift and have coped with the accuracy drop in real-time data depending on the task targeted, and these rely on a variety of learning methods. For computer vision, MCUNetV3 uses backpropagation and represents a state-of-the-art solution. The Restricted Coulomb Energy Neural Network is a promising method for learning with an extremely low memory footprint and computational complexity, which should be considered for future investigations.},
+  journal={MDPI Chips},
+  volume={2},
+  issue={2},
+  year={2023},
+  month={May},
+  publisher={MDPI},
+  doi={10.3390/chips2020008},
+  url={https://www.mdpi.com/2674-0729/2/2/8},
+  html={https://www.mdpi.com/2674-0729/2/2/8},
+  selected={true},
+  preview={review.png}
 }
+
+

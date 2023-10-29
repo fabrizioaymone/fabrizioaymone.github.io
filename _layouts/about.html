@@ -33,10 +33,23 @@ layout: default
               {{ page.profile.address }}
             </div>
             {%- endif %}
+            <!-- Social -->
+            {%- if page.social %}
+            <div class="social">
+              <div class="contact-icons">
+                {% include social.html %}
+              </div>
+
+              <div class="contact-note">
+                {{ site.contact_note }}
+              </div>
+
+            </div>
+            {%- endif %}
           </div>
           {%- endif %}
 
-          <div class="clearfix">
+          <div class="clearfix" style="text-align: justify; text-justify: inter-word;">
             {{ content }}
           </div>
 
@@ -58,19 +71,6 @@ layout: default
             {%- include selected_papers.html %}
           {%- endif %}
 
-          <!-- Social -->
-          {%- if page.social %}
-            <div class="social">
-              <div class="contact-icons">
-                {% include social.html %}
-              </div>
-
-              <div class="contact-note">
-                {{ site.contact_note }}
-              </div>
-
-            </div>
-          {%- endif %}
         </article>
 
 </div>

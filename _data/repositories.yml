@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - fabrizioaymone
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - fabrizioaymone/cuda-smith-waterman
+  - fabrizioaymone/DeepBeliefNetwork
+  - fabrizioaymone/h-and-m-challenge
+  - fabrizioaymone/mlogit-from-scratch
+

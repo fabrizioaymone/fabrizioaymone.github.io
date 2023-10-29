@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: AI Research Intern at <a href='https://www.st.com/content/st_com/en/about/innovation---technology/artificial-intelligence.html'>STMicroelectronics</a> and BSc Electronics Engineering student at <a href='https://www.elettronica.polimi.it/'>Politecnico di Milano</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Milan, Italy</p>
+    <a href="mailto:fabrizio.aymone@gmail.com">fabrizio.aymone@gmail.com</a>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -19,8 +18,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am actively studying solutions for On-Device Learning at AI System Research and Applications department of STMicroelectronics. My objective is to enable learning of AI models in resource-constrained tiny devices such as MCUs and sensors. Such research activity involves the quantiative analysis of alternative learning algorithms w.r.t bakcpropagation (e.g. Forward-Forward and PEPITA) and investigating models with low memory and computational complexity (e.g. hyperspherical classifiers). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+At the same time, I am successfully pursuing a Bachelor degree in Electronics Engineering at Politecnico di Milano. As such, I am currently exploring on my own neuromorphic computing and other Post-Moore computing paradigms.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Over the last years, I have tutored several students for admission exams to engineering and economics universities, high-school tests and university courses.
+
