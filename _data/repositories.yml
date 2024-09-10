@@ -1,14 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - fabrizioaymone
+
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - fabrizioaymone/suitability-of-Forward-Forward-and-PEPITA-learning
+  - fabrizioaymone/cuda-smith-waterman
+  - fabrizioaymone/DeepBeliefNetwork
+  - fabrizioaymone/merge-sort-fpga
+  - fabrizioaymone/riscv-tflite
+  - fabrizioaymone/forward-learning-of-LLMs-to-consumer-devices
+

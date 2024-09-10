@@ -2,24 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Ex AI Research Intern at <a href='https://www.st.com/content/st_com/en/about/innovation---technology/artificial-intelligence.html'>STMicroelectronics</a> and MSc Electronics Engineering student at <a href='https://www.elettronica.polimi.it/'>ETH Zurich</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Zurich, Switzerland</p>
+    <a href="mailto:fabrizio.aymone@gmail.com">fabrizio.aymone@gmail.com</a>
 
-news: true # includes a list of news items
+news: true  # includes a list of news items
+latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am Fabrizio M. Aymone, an Electronics Engineer and Researcher with a strong passion for AI, **High-Performance Computing**, and their application in quantitative fields. I recently graduated with honors from Politecnico di Milano and am pursuing an MSc in Electronic Engineering at ETH Zurich.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+During my tenure at STMicroelectronics, I conducted in-depth quantitative analyses of **computational complexity** and memory requirements of AI learning algorithms. My work focused on enabling AI model learning on resource-constrained devices such as microcontrollers and sensors. This involved evaluating alternative learning algorithms compared to backpropagation (e.g., Forward-Forward and PEPITA), and exploring models ranging from hyperspherical classifiers to Large Language Models. My efforts led to a **patent** for a hardware implementation of a forward-only algorithm and resulted in several internationally cited **papers**.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+At Reply Concept, I advanced AI solutions for microcontrollers, focusing on sound anomaly detection for predictive maintenance. I employed sophisticated **signal processing** techniques, including Fourier transforms and log-mel spectrograms, to extract temporal features from audio signals. Additionally, I utilized model compression techniques, such as quantization, to enable efficient low-precision arithmetic, accelerating AI inference on constrained devices.
+
+Through university projects involving **GPUs and FPGAs**, I have gained experience into the fields parallel computing and hardware acceleration.  These skills are essential for tackling current computational challenges across various quantitative domains, ranging from finance to power trading. I am eager to leverage my expertise in roles where data-driven insights and high-performance computing drive innovation.
